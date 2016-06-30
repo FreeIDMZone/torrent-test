@@ -4,7 +4,7 @@
 	"repository": "https://github.com/FreeIDMZone/torrent-leecher",
 	"env": {
 		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'Cloud Torrent')",
+			"description": "Optionally set the title of this instance (defaults to 'FreeIDMZone's Cloud Torrent')",
 			"required": false
 		},
 		"AUTH": {
