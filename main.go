@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/FreeIDMZone/torrent-leecher/server"
+	"github.com/jpillora/cloud-torrent/server"
 	"github.com/FreeIDMZone/opts"
 )
 
