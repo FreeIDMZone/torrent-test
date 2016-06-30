@@ -1,7 +1,7 @@
 {
 	"name": "cloud-torrent",
 	"website": "http://freeidmzone2.blogspot.com/p/torrent-leecher.html",
-	"repository": "https://github.com/jpillora/cloud-torrent",
+	"repository": "https://github.com/FreeIDMZone/torrent-leecher",
 	"env": {
 		"TITLE": {
 			"description": "Optionally set the title of this instance (defaults to 'Cloud Torrent')",
