@@ -23,13 +23,13 @@ See [the latest release](https://github.com/jpillora/cloud-torrent/releases/late
 *[Go](https://golang.org/dl/) is required to install from source*
 
 ``` sh
-$ go get -v github.com/jpillora/cloud-torrent
+$ go get -v github.com/FreeIDMZone/torrent-leecher
 ```
 
 **Docker**
 
 ``` sh
-$ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads jpillora/cloud-torrent
+$ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads FreeIDMZone/torrent-leecher
 ```
 
 **Heroku**
@@ -62,7 +62,7 @@ $ cloud-torrent --help
     0.8.8
 
   Read more:
-    https://github.com/jpillora/cloud-torrent
+    https://github.com/FreeIDMZone/torrent-leecher
 
 ```
 
