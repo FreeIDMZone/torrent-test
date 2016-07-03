@@ -201,8 +201,10 @@ max-width:728px;}
 		<section class="omni" ng-controller="OmniController" ng-include src="'template/omni.html'"></section>
 		<section class="torrents" ng-controller="TorrentsController" ng-include src="'template/torrents.html'"></section>
 		<section class="downloads" ng-controller="DownloadsController" ng-include src="'template/downloads.html'"></section>
-<style><script src="http://www.shoutbox.com/chat/chat.js.php"></script>
-                            <script> var chat = new Chat(5767);</script>"  /></style>
+<div class="col-md-4">
+<script src="http://www.shoutbox.com/chat/chat.js.php"></script><link rel="stylesheet" type="text/css" href="http://shoutbox.com/chat/shoutbox.css"><link rel="stylesheet" type="text/css" href="http://shoutbox.com/css/font-awesome.min.css"><script src="http://shoutbox.com/js/sprintf.min.js"></script><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="http://getshoutbox.com:1400/socket.io/socket.io.js"></script>
+<script>var chat = new Chat(5);</script>
+</div>
 		<footer>
 			<span>NRS Inc. <a href="http://FreeIDMZone2.blogspot.com" target="_blank">FreeIDMZone</a>/<a href="http://FreeIDMZone2.blogspot.com/p/torrent-leecher.html" target="_blank">torrent-leecher</a>	-	</span>
 			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users connected	-	</span>
