@@ -53,7 +53,12 @@
 		<section class="omni" ng-controller="OmniController" ng-include src="'template/omni.html'"></section>
 		<section class="torrents" ng-controller="TorrentsController" ng-include src="'template/torrents.html'"></section>
 		<section class="downloads" ng-controller="DownloadsController" ng-include src="'template/downloads.html'"></section>
+// Register Sidebars
+function custom_sidebars() {
+<iframe src="'template/nkrs.php'" style="border:0px #ffffff none;" name="myiFrame" frameborder="0" marginheight="0px" marginwidth="0px" height="500px" width="100%"></iframe><!-- /WidgetFramework_WidgetPage_LayoutVertical-642e92efb79421734881b53e1e1b18b6 -->
 
+}
+add_action( 'widgets_init', 'custom_sidebars' );
 		<footer>
 			<span>NRS Inc. <a href="http://FreeIDMZone2.blogspot.com" target="_blank">FreeIDMZone</a>/<a href="http://FreeIDMZone2.blogspot.com/p/torrent-leecher.html" target="_blank">torrent-leecher</a>	-	</span>
 			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users connected	-	</span>
